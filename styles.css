@@ -1,0 +1,156 @@
+html{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+header{
+    border: 1px solid white;
+    width: 100%;
+    z-index: 100;
+    margin: 20 20;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+h2, h3, h4, p{
+    margin: 0;
+    padding: 10px;
+}
+
+div{
+    display: block;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.title h1 {
+    display: block;
+    font-size: 3rem;
+}
+
+.nav-top{
+    justify-content: space-around;
+    margin: 0 100;
+    font-size: 1.25rem;
+}
+.nav-top p{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+
+.nav-top a {
+    padding: 1rem;
+    color: black;
+    align-self: center;
+    margin: 10 0;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 35px;
+    background-image: url('./images/london-background.jpeg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#content{
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    opacity: 0.75;
+}
+
+#companies{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 35px;
+    width: 100%;
+}
+
+.companies-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company img{
+margin-left: auto;
+margin-right: auto;
+width: 200px;
+padding: 10px;
+height: auto;
+}
+
+.company span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#team{
+    display: flex;
+    background-image: url('./images/tree-736885__340.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 2px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.teammate {
+    padding: 10px;
+    flex-basis: 280px;
+    z-index: 5;
+    color: white;
+}
+.teammate img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.contact, .copyright{
+    padding-top: 20px;
+    background-color: #e8e8e8;
+}
